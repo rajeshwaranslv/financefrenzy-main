@@ -1,18 +1,18 @@
+// Packages used
 import React from "react";
 import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+import { Helmet } from "react-helmet";
+// Component Splitted
 import Navbar from "./Components/Navbar";
+import Services from "./Components/Services";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
-
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import End from "./Components/End";
 import Careers from "./Components/Careers";
-
-import { Helmet } from "react-helmet";
-
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 class App extends React.Component {
   render() {
     return (
@@ -29,15 +29,16 @@ class App extends React.Component {
             <script src="assets/js/main.js" type="text/javascript" />
           </Helmet>
           <Navbar />
-          <Hero />
+          <Route exact path="/" component={Hero}/>
 
           <Switch>
             <main id="main">
-              <About />
-     
-             
-              <Careers />
-              <Contact />
+           
+              <Route exact path="/About" component={About}/>
+              <Route exact path="/Services" component={Services}/>
+              <Route exact path="/Careers" component={Careers}/>
+              <Route exact path="/Contact" component={Contact}/>
+          
             </main>
           </Switch>
           <footer id="footer">

@@ -8,7 +8,7 @@ export default class End extends Component {
       <div class="container-fluid d-md-flex py-4">
         <div class="me-md-auto text-center text-md-start">
           <div class="copyright">
-            &copy; Copyright{" "}
+            &copy;
             <strong>
               <span>financeFrenzy, </span>
             </strong>

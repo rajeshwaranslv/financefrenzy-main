@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import { ChangeTitle } from './util/ChangeTitle';
 export default class Contact extends Component{
+  componentDidMount() {
+    document.title = 'Contact';
+  }
     render(){
       ChangeTitle("Contact : SelvFi");
         return(
             <section id="contact" class="contact">
-            <div class="container-fluid" data-aos="fade-up">
+            <div class="container-fluid mt-5" data-aos="fade-up">
       
               <div class="section-title">
                 <h2>Contact</h2>

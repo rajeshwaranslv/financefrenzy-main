@@ -16,51 +16,62 @@ export default class Navbar extends Component {
                 width="40"
                 height="40"
                 alt="Finance Frenzy"
-                style={{ position:'relative',bottom:'0.2px' }}
+                style={{ position: "relative", bottom: "0.2px" }}
               />
             </Link>
-            <Link to="/">financeFrenzy</Link><br/>
-            <span style={{fontSize:'10px',position:'relative',bottom:'24px',right:'8px'}}>We help build your Dream!</span>
+            <Link to="/">financeFrenzy</Link>
+            <br />
+            <span
+              style={{
+                fontSize: "10px",
+                position: "relative",
+                bottom: "24px",
+                right: "8px",
+              }}
+            >
+              We help build your Dream!
+            </span>
           </h1>
           <nav
             id="navbar"
             class="navbar navbar-expand-lg navbar-light bg-light navbar-default navbar-inverse order-last order-lg-0"
           >
-            <ul>
-              <li >
+            <ul nav nav-tabs>
+              <li>
                 <Link class="nav-link scrollto active" to="/#hero">
                   Home
                 </Link>
               </li>
               <li>
-                <Link class="nav-link scrollto" to="/#about">
+                <Link class="nav-link scrollto"target={"_blank"} to="/About">
                   About
                 </Link>
               </li>
-              {/* <li>
-                <Link class="nav-link scrollto" to="/#services">
+              <li>
+                <Link class="nav-link scrollto" target={"_blank"} to="/Services">
                   Services
                 </Link>
               </li>
 
               <li>
-                <Link class="nav-link scrollto" to="/#team">
+                <Link class="nav-link scrollto" target={"_blank"} to="/Products">
                   Products
                 </Link>
               </li>
 
               <li>
-                <Link class="nav-link scrollto" to="/#careers">
+                <Link class="nav-link scrollto" target={"_blank"} to="/Careers">
                   Careers
                 </Link>
               </li>
 
               <li>
-                <Link class="nav-link scrollto" to="/#contact">
+                <Link class="nav-link scrollto" target={"_blank"} to="/Contact">
                   Contact
                 </Link>
-              </li> */}
+              </li>
             </ul>
+
             <i class="bi bi-list mobile-nav-toggle"> </i>
           </nav>
         </div>

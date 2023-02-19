@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import { ChangeTitle } from "./util/ChangeTitle";
 export default class Careers extends Component {
+  componentDidMount() {
+    document.title = 'Careers';
+  }
   render() {
     ChangeTitle("Contact : SelvFi");
     return (
       <section id="careers" class="contact">
-        <div class="container-fluid" data-aos="fade-up">
+        <div class="container-fluid mt-5" data-aos="fade-up">
           <div class="section-title">
             <h2>Careers</h2>
           </div>
