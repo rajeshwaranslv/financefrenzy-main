@@ -11,84 +11,69 @@ export default class Services extends Component {
         <div class="container-fluid" data-aos="fade-up">
           <div class="section-title">
             <h2>Services</h2>
-            <p>Get to value faster with ServiceNow expertise</p>
+            <h4 style={{color:"rgb(48, 140, 201)"}}>Get to value faster with Finance Frenzy expertise</h4>
           </div>
 
           <div class="row">
             <div class="col-md-6">
               <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                 <i class="bi bi-briefcase"></i>
-                <h4>
-                  <a href="#">Expert Services</a>
-                </h4>
                 <p>
-                  Plan and implement with Finance Frenzy experts. Deliver
-                  extraordinary business outcomes and reach value faster with
-                  less risk.
+                We show people how to build guaranteed income streams for life. 
                 </p>
               </div>
             </div>
             <div class="col-md-6 mt-4 mt-md-0">
               <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-card-checklist"></i>
-                <h4>
-                  <a href="#">Assure Co-Delivery Services</a>
-                </h4>
+ 
                 <p>
-                  Plan and implement with ServiceNow experts. Deliver
-                  extraordinary business outcomes and reach value faster with
-                  less risk.
+                We are specialized in educating others on how to increase cash flow, achieve and preserve wealth, 
+build an emergency fund, and how to eliminate debt.
                 </p>
               </div>
             </div>
             <div class="col-md-6 mt-4 mt-md-0">
               <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
                 <i class="bi bi-bar-chart"></i>
-                <h4>
-                  <a href="#">Success and Support Services</a>
-                </h4>
+            
                 <p>
-                  Get the expert guidance and support you need throughout your
-                  journey.
+                We have an opportunity for people from all backgrounds who are looking to diversify their current 
+portfolio by adding additional revenue streams.
                 </p>
               </div>
             </div>
             <div class="col-md-6 mt-4 mt-md-0">
               <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
                 <i class="bi bi-binoculars"></i>
-                <h4>
-                  <a href="#">Technical Support</a>
-                </h4>
+
                 <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum
+                Financial Needs Analysis (FNA)
                 </p>
               </div>
             </div>
+      
             <div class="col-md-6 mt-4 mt-md-0">
               <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
                 <i class="bi bi-brightness-high"></i>
-                <h4>
-                  <a href="#">Customer Success Center</a>
-                </h4>
+            
                 <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis praesentium voluptatum deleniti atque
+                We assist in helping you find the right coverage for your health and life that is affordable. We work 
+with top firms to get the goals achieved.
+
                 </p>
               </div>
             </div>
             <div class="col-md-6 mt-4 mt-md-0">
-              <div class="icon-box" data-aos="fade-up" data-aos-delay="600">
-                <i class="bi bi-calendar4-week"></i>
-                <h4>
-                  <a href="#">Now Create</a>
-                </h4>
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-binoculars"></i>
+          
                 <p>
-                  Et harum quidem rerum facilis est et expedita distinctio. Nam
-                  libero tempore, cum soluta nobis est eligendi
+                D.I.M.E. + Analysis
                 </p>
               </div>
             </div>
+ 
           </div>
         </div>
       </section>

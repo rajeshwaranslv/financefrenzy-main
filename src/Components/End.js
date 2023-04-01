@@ -13,12 +13,12 @@ export default class End extends Component {
               <span>financeFrenzy, </span>
             </strong>
              ©2021 Finance Frenzy,
-            LLC Headquarters: 18416 Clavemorr Castle Ct, Charlotte, NC 28277
-            <p><a href="mailto:selva.hgi@gmail.com">Email:selva.hgi@gmail.com</a><a href="tel: +1-972-998-7537 "> | Phone:+1-972-998-7537 </a></p>
+             Headquarters: 18416 Clavemorr Castle Ct, Charlotte, NC 28277
+            <p><a style={{color:"rgb(48, 140, 201)"}} href="mailto:selva.hgi@gmail.com">Email:selva.hgi@gmail.com</a><a style={{color:"rgb(48, 140, 201)"}} href="tel: +1-972-998-7537 "> | Phone:+1-972-998-7537 </a></p>
          
           </div>
-          <div class="credits">
-            Designed by <a href="https://bootstrapmade.com/">Learn TEK In</a>
+          <div  class="credits">
+            Designed by <a style={{color:"rgb(48, 140, 201)"}} href="https://bootstrapmade.com/">Learn TEK In</a>
           </div>
         </div>
         <div class="social-links text-center text-md-end pt-3 pt-md-0">

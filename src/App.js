@@ -9,12 +9,13 @@ import Navbar from "./Components/Navbar";
 import Services from "./Components/Services";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
-import Contact from "./Components/Contact";
+import Products from "./Components/Products"; 
 import Footer from "./Components/Footer";
 import End from "./Components/End";
 import Careers from "./Components/Careers";
-class App extends React.Component {
-  render() {
+import Contact from "./Components/Contact"; 
+function App() {
+ 
     return (
       <Router>
         <div className="App">
@@ -34,10 +35,11 @@ class App extends React.Component {
           <Switch>
             <main id="main">
            
-              <Route exact path="/About" component={About}/>
+              <Route exact path="/About/" component={About}/>
               <Route exact path="/Services" component={Services}/>
               <Route exact path="/Careers" component={Careers}/>
               <Route exact path="/Contact" component={Contact}/>
+              <Route exact path="/Products" component={Products}/>
           
             </main>
           </Switch>
@@ -57,6 +59,5 @@ class App extends React.Component {
       </Router>
     );
   }
-}
-
 export default App;
+

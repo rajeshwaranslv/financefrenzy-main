@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { ChangeTitle } from "./util/ChangeTitle";
-import Services from "./Services";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Products from "./Products";
 export default class About extends Component {
   componentDidMount() {
     document.title = 'About';
@@ -15,8 +13,8 @@ export default class About extends Component {
           <div class="row no-gutters">
             <div class="content col-xl-12 col-lg-12 d-flex align-items-center">
               <div class="content">
-                <h1 class="logo me-auto">
-                  <Link to="/">About: financeFrenzy</Link>
+                <h1 class="logo me-auto" >
+                  <a to="" style={{color:"rgb(48, 140, 201)"}}>About: financeFrenzy</a>
                 </h1>
 
                 <p align="justify">
@@ -37,9 +35,15 @@ export default class About extends Component {
                   <div class="section-title">
                     <p>
                       <h1 align="left" className="mt-3">
-                        Selvavel Shanmugam
+                      Neelima Devineni
                       </h1>{" "}
-                      <p align="left">Founder, CEO</p>
+                      <p align="left">Chair woman, Founder</p>
+
+                      <h1 align="left" className="mt-3">
+                      Selvavel Shanmugam
+                  
+                      </h1>{" "}
+                      <p align="left">CEO, Co-Founder</p>
                       <p align="justify" className="mt-3">
                         Selvavel Shanmugam is a licensed financial professional
                         in the US states North Carolina, Georgia, and Texas.
@@ -50,10 +54,6 @@ export default class About extends Component {
                         opportunity to ambitious individuals to be part of his
                         recession proof business.
                       </p>
-                      <h1 align="left" className="mt-3">
-                        Neelima Devineni
-                      </h1>{" "}
-                      <p align="left">Co-Founder, CEO</p>
                     </p>
 
                   </div>
