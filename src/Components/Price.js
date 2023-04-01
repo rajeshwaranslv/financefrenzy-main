@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
-import { ChangeTitle } from './util/ChangeTitle';
-export default class Price extends Component{
-    render(){
-      ChangeTitle("Price List: Services");
-        return(
-            <section id="pricing" class="pricing section-bg">
+import { ChangeTitle } from './util            <section id="pricing" class="pricing section-bg">
             <div class="container-fluid" data-aos="fade-up">
       
               <div class="section-title">
@@ -68,7 +63,12 @@ export default class Price extends Component{
               </div>
       
             </div>
-          </section>
+          </section>/ChangeTitle';
+export default class Price extends Component{
+    render(){
+      ChangeTitle("Price List: Services");
+        return(
+
  
         )
     }

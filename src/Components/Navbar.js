@@ -4,7 +4,11 @@ export default class Navbar extends Component {
   render() {
     function refreshPage() {
       window.location.reload(true);
+      
     }
+
+    
+    
 
     return (
       <header id="header" class="fixed-top d-flex align-items-center">
@@ -43,30 +47,30 @@ export default class Navbar extends Component {
                 </Link>
               </li>
               <li>
-                <Link class="nav-link scrollto"target={"_blank"} to="/About">
+                <Link   class="nav-link scrollto active" to="/About/#about" >
                   About
                 </Link>
               </li>
               <li>
-                <Link class="nav-link scrollto" target={"_blank"} to="/Services">
+                <Link  class="nav-link scrollto active"  to="/Services/#services">
                   Services
                 </Link>
               </li>
 
               <li>
-                <Link class="nav-link scrollto" target={"_blank"} to="/Products">
+                <Link  class="nav-link scrollto active" to="/Products/#pricing">
                   Products
                 </Link>
               </li>
 
               <li>
-                <Link class="nav-link scrollto" target={"_blank"} to="/Careers">
+                <Link  class="nav-link scrollto active"  to="/Careers/#careers">
                   Careers
                 </Link>
               </li>
 
               <li>
-                <Link class="nav-link scrollto" target={"_blank"} to="/Contact">
+                <Link  class="nav-link scrollto active"  to="/Contact/#contact">
                   Contact
                 </Link>
               </li>
