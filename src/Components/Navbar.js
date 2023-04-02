@@ -42,35 +42,35 @@ export default class Navbar extends Component {
           >
             <ul nav nav-tabs>
               <li>
-                <Link class="nav-link scrollto active" to="/#hero">
+                <Link class="nav-link scrollto " to="/#hero">
                   Home
                 </Link>
               </li>
               <li>
-                <Link   class="nav-link scrollto active" to="/About/#about" >
+                <Link   class="nav-link scrollto " to="/About/#about" >
                   About
                 </Link>
               </li>
               <li>
-                <Link  class="nav-link scrollto active"  to="/Services/#services">
+                <Link  class="nav-link scrollto "  to="/Services/#services">
                   Services
                 </Link>
               </li>
 
               <li>
-                <Link  class="nav-link scrollto active" to="/Products/#pricing">
+                <Link  class="nav-link scrollto " to="/Products/#pricing">
                   Products
                 </Link>
               </li>
 
               <li>
-                <Link  class="nav-link scrollto active"  to="/Careers/#careers">
+                <Link  class="nav-link scrollto "  to="/Careers/#careers">
                   Careers
                 </Link>
               </li>
 
               <li>
-                <Link  class="nav-link scrollto active"  to="/Contact/#contact">
+                <Link  class="nav-link scrollto "  to="/Contact/#contact">
                   Contact
                 </Link>
               </li>

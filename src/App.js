@@ -15,9 +15,10 @@ import End from "./Components/End";
 import Careers from "./Components/Careers";
 import Contact from "./Components/Contact"; 
 function App() {
+
  
     return (
-      <Router>
+
         <div className="App">
           <Helmet>
             <script src="assets/vendor/purecounter/purecounter.js"></script>
@@ -56,7 +57,7 @@ function App() {
             <i class="bi bi-arrow-up-short"></i>
           </a>
         </div>
-      </Router>
+ 
     );
   }
 export default App;

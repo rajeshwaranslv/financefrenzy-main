@@ -1746,7 +1746,7 @@ section {
   padding-bottom: 12px;
 }
 #footer .footer-newsletter form {
-  margin-top: 30px;
+  margin-top:-1rem;
   background: #fff;
   padding: 5px 10px;
   position: relative;
@@ -1754,9 +1754,12 @@ section {
   text-align: left;
 }
 #footer .footer-newsletter form input[type=email] {
-  border: 0;
+  
   padding: 4px 8px;
   width: calc(100% - 100px);
+}
+textarea:focus, input:focus{
+  outline: none;
 }
 #footer .footer-newsletter form input[type=submit] {
   position: absolute;
