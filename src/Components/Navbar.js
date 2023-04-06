@@ -4,13 +4,9 @@ export default class Navbar extends Component {
   render() {
     function refreshPage() {
       window.location.reload(true);
-      
+  
     }
-
-    
-    
-
-    return (
+   return (
       <header id="header" class="fixed-top d-flex align-items-center">
         <div class="container-fluid d-flex align-items-center">
           <h1 class="logo me-auto">
