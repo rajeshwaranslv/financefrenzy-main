@@ -10,7 +10,7 @@ a {
 }
 
 a:hover {
-  color: rgb(48, 140, 201) !important;
+  color: white !important;
   text-decoration: none;
 }
 
@@ -1802,3 +1802,8 @@ textarea:focus, input:focus{
   color: #fff !important;
   text-decoration: none;
 }
+
+.nav-link:hover{
+  color: white !important;
+}
+ 
